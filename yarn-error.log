@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add mongoose
+
+PATH: 
+  C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp\php;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\geckodriver;C:\Python27;C:\Python27\Scripts;C:\Python3;C:\Python3\Scripts;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_212\bin;C:\gradle-5.6.2\bin;C:\MinGW\bin;C:\apktool;C:\Program Files\Kotlin\kotlinc\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;E:\A Local E\My_Files\IT_Folder\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\willi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\bin;;C:\Program Files\JetBrains\PyCharm Professional Edition with Anaconda plugin 2019.3\bin;;C:\Program Files\JetBrains\PhpStorm 2019.3.1\bin;;C:\Program Files\Kotlin\kotlinc\bin;C:\Users\willi\AppData\Roaming\npm;;C:\Program Files\JetBrains\PyCharm 2020.2.1\bin;;C:\Program Files\JetBrains\WebStorm 2020.1.2\bin;;C:\Program Files\heroku\bin;C:\Users\willi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\willi\AppData\Local\Yarn\bin;C:\Users\willi\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "first",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
